@@ -40,13 +40,8 @@ console.log("A soma dos números é:", soma);
 ```
 Qual das seguintes alternativas melhor descreve o que o código faz?
 
-A) O código avalia a expressão booleana, imprime o resultado `false`, calcula a soma dos números de 1 a 5 e imprime o resultado no console.
+**A) O código avalia a expressão booleana, imprime o resultado `false`, calcula a soma dos números de 1 a 5 e imprime o resultado no console.**
 
-B) O código avalia a expressão booleana, imprime o resultado `true`, calcula a soma dos números de 1 a 5 e imprime o resultado no console.
-
-C) O código avalia a expressão booleana, imprime o resultado `true` e verifica se o número 5 está presente na lista de números.
-
-D) O código avalia a expressão booleana, imprime o resultado `false` e ordena a lista de números em ordem crescente.
 
 
 ______
@@ -104,13 +99,8 @@ function calculaOrcamento2(){
 
 Escolha a opção que responde corretamente qual seria a saída após a execução de cada função:
 
-A) As funções calcularOrcamento() e calcularOrcamento2() teriam a mesma saída: 'Seu saldo é negativo de -1050.'
 
-B) A saída de calcularOrcamento() seria: 'Seu saldo é negativo de -1050.' e a de calcularOrcamento2() seria: 'Seu saldo é negativo de -100.'
-
-C) A saída de calcularOrcamento() seria: 'Seu saldo é negativo de -100.' e a de calcularOrcamento2() seria: 'Seu saldo é negativo de -1050.'
-
-D) As funções calcularOrcamento() e calcularOrcamento2() teriam a mesma saída: 'Seu saldo é negativo de -100.'
+**D) As funções calcularOrcamento() e calcularOrcamento2() teriam a mesma saída: 'Seu saldo é negativo de -100.'**
 
 ______
 
@@ -131,13 +121,7 @@ if (numero % 2 === 0) {
  Qual das seguintes alternativas é a descrição mais precisa do que o código faz?
 
 
-A) O código verifica se o número é divisível por 3 e, se for, exibe a mensagem "O número é divisível por 3!".
-
-B) O código verifica se o número é par ou ímpar. Se for par, exibe a mensagem "O número é par!". Se for ímpar, exibe a mensagem "O número é ímpar!".
-
-C) O código verifica se o número é par, ímpar ou divisível por 3. Se for par, exibe a mensagem "O número é par!". Se for divisível por 3, exibe a mensagem "O número é divisível por 3!". Se for ímpar, exibe a mensagem "O número é ímpar e não é divisível por 3!".
-
-D) O código verifica se o número é par, se é divisível por 3 ou se é ímpar. Se for par, exibe a mensagem "O número é par!". Se for divisível por 3 (e não for par), exibe a mensagem "O número é divisível por 3!". Se for ímpar (e não for divisível por 3), exibe a mensagem "O número é ímpar e não é divisível por 3!".
+**C) O código verifica se o número é par, ímpar ou divisível por 3. Se for par, exibe a mensagem "O número é par!". Se for divisível por 3, exibe a mensagem "O número é divisível por 3!". Se for ímpar, exibe a mensagem "O número é ímpar e não é divisível por 3!".**
 
 
 ______
@@ -167,51 +151,16 @@ for (var i = 0; i < valorCompras.length; i++) {
 
 Escolha a opção que responde corretamente:
 
-A)
-Compra 1 aprovada. Saldo restante: 800
+**C)**
+**Compra 1 aprovada. Saldo restante: 800**
 
-Compra 2 aprovada com limite de crédito. Saldo restante: 700
+**Compra 2 aprovada com limite de crédito. Saldo restante: 700**
 
-Compra 3 aprovada. Saldo restante: 400
+**Compra 3 aprovada. Saldo restante: 400**
 
-Compra 4 aprovada com limite de crédito. Saldo restante: 0
-
-Compra 5 aprovada. Saldo restante: -200
+**Compra 4 negada. Saldo insuficiente e limite de crédito excedido.**
 
 
-B)
-Compra 1 aprovada. Saldo restante: 800
-
-Compra 2 aprovada com limite de crédito. Saldo restante: 700
-
-Compra 3 aprovada. Saldo restante: 200
-
-Compra 4 negada. Saldo insuficiente e limite de crédito excedido.
-
-Compra 5 negada. Saldo insuficiente e limite de crédito excedido.
-
-
-C)
-Compra 1 aprovada. Saldo restante: 800
-
-Compra 2 aprovada com limite de crédito. Saldo restante: 700
-
-Compra 3 aprovada. Saldo restante: 400
-
-Compra 4 negada. Saldo insuficiente e limite de crédito excedido.
-
-
-D)
-
-Compra 1 aprovada. Saldo restante: 800
-
-Compra 2 aprovada. Saldo restante: 0
-
-Compra 3 aprovada com limite de crédito. Saldo restante: 200
-
-Compra 4 negada. Saldo insuficiente e limite de crédito excedido.
-
-Compra 5 negada. Saldo insuficiente e limite de crédito excedido.
 
 ______
 
@@ -219,26 +168,15 @@ ______
 
 Escolha a opção que responde corretamente:
 
-A) Setup -> Update -> Draw
+**B) Preload -> Create -> Update**
 
-B) Preload -> Create -> Update
-
-C) Load -> Initialize -> Render
-
-D) Begin -> Play -> End
 ______
 
 **6)** Qual é o objetivo principal do módulo Arcade Physics em Phaser.js?
 
 Escolha a opção que responde corretamente:
 
-A) Renderizar gráficos 3D para jogos em HTML5.
-
-B) Simular interações físicas realistas, como colisões e movimentos, em jogos 2D.
-
-C) Criar efeitos de áudio para melhorar a experiência do usuário em jogos.
-
-D) Gerenciar a lógica do jogo e a sincronização de eventos em jogos multiplayer.
+**B) Simular interações físicas realistas, como colisões e movimentos, em jogos 2D.**
 
 ______
 
@@ -263,6 +201,34 @@ Classe FormaGeometrica:
 
 ```
 
+```
+Classe Retangulo:
+    Herança: FormaGeometrica
+    Atributos:
+        - largura
+        - altura
+
+    Método Construtor(cor, largura, altura):
+        Chama o construtor da classe pai (FormaGeometrica) passando a cor como parâmetro.
+        Define os valores dos atributos largura e altura com os valores passados como parâmetros.
+
+    Método CalcularArea():
+        Retorna o produto da largura pela altura como a área do retângulo.
+
+Classe Circulo:
+    Herança: FormaGeometrica
+    Atributos:
+        - raio
+
+    Método Construtor(cor, raio):
+        Chama o construtor da classe pai (FormaGeometrica) passando a cor como parâmetro.
+        Define o valor do atributo raio com o valor passado como parâmetro.
+
+    Método CalcularArea():
+        Retorna o resultado da fórmula matemática para cálculo da área de um círculo: pi * raio^2.
+
+```
+
 ______
 
 **9)** Você foi contratado(a) como estagiário(a) da Tesla e está participando do desenvolvimento de um programa para simular o desempenho de um carro elétrico em uma corrida. Seu objetivo é determinar em quantos minutos o carro levará para completar uma determinada distância, levando em consideração uma velocidade inicial e uma taxa de aceleração constante. No entanto, você deseja garantir que o carro não exceda uma velocidade máxima nem que a corrida demore mais do que um tempo máximo. Implemente a lógica dessa simulação em pseudocódigo.
@@ -270,6 +236,27 @@ ______
 Considere a fórumla de atualização velocidade:
 ```
     velocidade = velocidadeInicial + aceleracao*tempo
+```
+
+```
+Função simularCorrida(velocidadeInicial, aceleracao, distancia, velocidadeMaxima, tempoMaximo):
+    tempo <- 0
+    velocidade <- velocidadeInicial
+
+    Enquanto distancia > 0 e tempo <= tempoMaximo:
+        velocidade <- velocidade + aceleracao * tempo
+        Se velocidade > velocidadeMaxima:
+            velocidade <- velocidadeMaxima
+        distanciaPercorrida <- velocidade * tempo
+        distanciaRestante <- distancia - distanciaPercorrida
+        tempoRestante <- distanciaRestante / velocidade
+        tempo <- tempo + tempoRestante
+        distancia <- distanciaRestante
+
+    Se tempo > tempoMaximo:
+        Retornar -1
+    Senão:
+        Retornar tempo
 ```
 
 ______
@@ -300,4 +287,27 @@ matrizB <- [[9, 8, 7], [6, 5, 4], [3, 2, 1]]
 matrizSoma <- SomaDeMatrizes(matrizA, matrizB)
 Escrever("Soma das matrizes:")
 ImprimirMatriz(matrizSoma)
+```
+
+```
+Função MultiplicacaoDeMatrizes(matrizA, matrizB):
+    // Verifica se o número de colunas de matrizA é igual ao número de linhas de matrizB
+    Se tamanho(matrizA[0]) ≠ tamanho(matrizB) então:
+        Retornar "As matrizes não podem ser multiplicadas. O número de colunas da matrizA é diferente do número de linhas da matrizB."
+    Senão:
+        linhasA <- tamanho(matrizA)
+        colunasA <- tamanho(matrizA[0])  # Número de colunas de matrizA
+        colunasB <- tamanho(matrizB[0])  # Número de colunas de matrizB
+        matrizResultado <- novaMatriz(linhasA, colunasB)
+
+        // Loop para percorrer cada elemento da matriz resultado
+        Para i de 0 até linhasA-1 faça:
+            Para j de 0 até colunasB-1 faça:
+                # Inicializa o elemento na posição i,j da matriz resultado como zero
+                matrizResultado[i][j] <- 0
+                # Loop para calcular cada elemento do resultado na posição i,j
+                Para k de 0 até colunasA-1 faça:
+                    matrizResultado[i][j] <- matrizResultado[i][j] + (matrizA[i][k] * matrizB[k][j])
+
+        Retornar matrizResultado
 ```
