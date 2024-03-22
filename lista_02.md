@@ -185,6 +185,8 @@ ______
 **7)** Implemente o pseudocódigo para o algoritmo representado no fluxograma da imagem.
 ![Uma imagem](assets/image.png)
 
+
+**Resposta:**
 ```
 idade = prompt(insira sua idade)
   Se(idade > 16)
@@ -211,6 +213,7 @@ Classe FormaGeometrica:
 
 ```
 
+**Resposta:**
 ```
 Classe Retangulo:
     Herança: FormaGeometrica
@@ -248,6 +251,7 @@ Considere a fórumla de atualização velocidade:
     velocidade = velocidadeInicial + aceleracao*tempo
 ```
 
+**Resposta:**
 ```
 Função simularCorrida(velocidadeInicial, aceleracao, distancia, velocidadeMaxima, tempoMaximo):
     tempo <- 0
@@ -299,6 +303,7 @@ Escrever("Soma das matrizes:")
 ImprimirMatriz(matrizSoma)
 ```
 
+**Resposta:**
 ```
 Função MultiplicacaoDeMatrizes(matrizA, matrizB):
     // Verifica se o número de colunas de matrizA é igual ao número de linhas de matrizB
